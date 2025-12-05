@@ -102,45 +102,59 @@ const FALLBACKS: Record<string, Question[]> = {
         {
             title: "React Component Lifecycle",
             description: "Explain the React component lifecycle. When would you use useEffect with different dependency arrays? How do you handle cleanup?",
-            difficulty: "Medium"
+            difficulty: "Medium",
+            constraints: [],
+            examples: []
         },
         {
             title: "CSS Box Model & Flexbox",
             description: "Explain the CSS box model. How does Flexbox work? When would you use Flexbox vs Grid?",
-            difficulty: "Easy"
+            difficulty: "Easy",
+            constraints: [],
+            examples: []
         }
     ],
     backend: [
         {
             title: "REST API Design",
             description: "Design a RESTful API for a social media platform. How would you handle authentication, pagination, and rate limiting?",
-            difficulty: "Medium"
+            difficulty: "Medium",
+            constraints: [],
+            examples: []
         },
         {
             title: "Database Indexing",
             description: "Explain database indexing. When should you use indexes? What are the tradeoffs?",
-            difficulty: "Medium"
+            difficulty: "Medium",
+            constraints: [],
+            examples: []
         }
     ],
     fullstack: [
         {
             title: "Full Application Architecture",
             description: "Design the architecture for a real-time chat application. Consider both frontend state management and backend scalability.",
-            difficulty: "Hard"
+            difficulty: "Hard",
+            constraints: [],
+            examples: []
         }
     ],
     cybersecurity: [
         {
             title: "OWASP Top 10",
             description: "Explain the OWASP Top 10 vulnerabilities. How would you prevent SQL injection and XSS attacks?",
-            difficulty: "Medium"
+            difficulty: "Medium",
+            constraints: [],
+            examples: []
         }
     ],
     devops: [
         {
             title: "Docker & Kubernetes",
             description: "Explain containerization with Docker. How does Kubernetes orchestration work? What problems does it solve?",
-            difficulty: "Medium"
+            difficulty: "Medium",
+            constraints: [],
+            examples: []
         }
     ]
 };
