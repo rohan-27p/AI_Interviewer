@@ -22,7 +22,7 @@ export default function HomePage() {
                     <span className="text-xl font-bold">InterviewAI</span>
                 </div>
                 <Link
-                    href="/setup"
+                    href="/dashboard"
                     className="px-4 py-2 bg-white/10 hover:bg-white/20 rounded-lg transition-all text-sm font-medium"
                 >
                     Get Started
@@ -55,7 +55,7 @@ export default function HomePage() {
                     {/* CTA Buttons */}
                     <div className="flex items-center justify-center gap-4">
                         <Link
-                            href="/setup"
+                            href="/dashboard"
                             className="group flex items-center gap-2 px-8 py-4 bg-gradient-to-r from-orange-500 to-orange-600 hover:from-orange-400 hover:to-orange-500 rounded-xl font-semibold transition-all shadow-lg shadow-orange-500/30 hover:shadow-orange-500/40"
                         >
                             Start Practicing
@@ -114,7 +114,7 @@ export default function HomePage() {
             {/* Footer */}
             <footer className="relative z-10 border-t border-white/10 py-8">
                 <div className="max-w-7xl mx-auto px-8 text-center text-[#6b6b70] text-sm">
-                    Built with AI to help you ace your next interview
+                    Built by Rohan to help you ace your next interview
                 </div>
             </footer>
         </div>

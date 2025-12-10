@@ -39,3 +39,9 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+AUTH_SETUP_COMPLETE.md
+DATABASE_INTEGRATION_STATUS.md
+GOOGLE_OAUTH_SETUP.md
+SUPABASE_SETUP.md
+test.mp3

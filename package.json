@@ -11,6 +11,8 @@
   "dependencies": {
     "@deepgram/sdk": "^4.11.2",
     "@monaco-editor/react": "^4.7.0",
+    "@supabase/ssr": "^0.5.2",
+    "@supabase/supabase-js": "^2.47.10",
     "clsx": "^2.1.1",
     "framer-motion": "^12.23.25",
     "groq-sdk": "^0.36.0",
@@ -26,7 +28,7 @@
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
-    "baseline-browser-mapping": "^2.9.2",
+    "baseline-browser-mapping": "^2.9.3",
     "eslint": "^9",
     "eslint-config-next": "16.0.4",
     "tailwindcss": "^4",
